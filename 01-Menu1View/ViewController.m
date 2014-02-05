@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	self.view.backgroundColor = [UIColor redColor];
+    
+    
+    UIView *a = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 300, 300)];
+    a.backgroundColor = [UIColor redColor];
+    [self.view addSubview:a];
+    
 }
 
 - (void)didReceiveMemoryWarning
