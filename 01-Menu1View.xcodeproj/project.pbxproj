@@ -23,6 +23,10 @@
 		6CFE20951760709900DF8B98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFE20701760709900DF8B98 /* Foundation.framework */; };
 		6CFE209D1760709900DF8B98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CFE209B1760709900DF8B98 /* InfoPlist.strings */; };
 		6CFE20A01760709900DF8B98 /* _1_Menu1ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE209F1760709900DF8B98 /* _1_Menu1ViewTests.m */; };
+		6CFE20B1176071D200DF8B98 /* CollapseClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE20AB176071D200DF8B98 /* CollapseClick.m */; };
+		6CFE20B2176071D200DF8B98 /* CollapseClickArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE20AD176071D200DF8B98 /* CollapseClickArrow.m */; };
+		6CFE20B3176071D200DF8B98 /* CollapseClickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE20AF176071D200DF8B98 /* CollapseClickCell.m */; };
+		6CFE20B4176071D200DF8B98 /* CollapseClickCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFE20B0176071D200DF8B98 /* CollapseClickCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,13 @@
 		6CFE209C1760709900DF8B98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CFE209E1760709900DF8B98 /* _1_Menu1ViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _1_Menu1ViewTests.h; sourceTree = "<group>"; };
 		6CFE209F1760709900DF8B98 /* _1_Menu1ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_Menu1ViewTests.m; sourceTree = "<group>"; };
+		6CFE20AA176071D200DF8B98 /* CollapseClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClick.h; sourceTree = "<group>"; };
+		6CFE20AB176071D200DF8B98 /* CollapseClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClick.m; sourceTree = "<group>"; };
+		6CFE20AC176071D200DF8B98 /* CollapseClickArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClickArrow.h; sourceTree = "<group>"; };
+		6CFE20AD176071D200DF8B98 /* CollapseClickArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClickArrow.m; sourceTree = "<group>"; };
+		6CFE20AE176071D200DF8B98 /* CollapseClickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClickCell.h; sourceTree = "<group>"; };
+		6CFE20AF176071D200DF8B98 /* CollapseClickCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClickCell.m; sourceTree = "<group>"; };
+		6CFE20B0176071D200DF8B98 /* CollapseClickCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollapseClickCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,7 @@
 		6CFE20741760709900DF8B98 /* 01-Menu1View */ = {
 			isa = PBXGroup;
 			children = (
+				6CFE20A9176071D200DF8B98 /* CollapseClick */,
 				6CFE207D1760709900DF8B98 /* AppDelegate.h */,
 				6CFE207E1760709900DF8B98 /* AppDelegate.m */,
 				6CFE20861760709900DF8B98 /* MainStoryboard.storyboard */,
@@ -158,6 +170,20 @@
 				6CFE209B1760709900DF8B98 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CFE20A9176071D200DF8B98 /* CollapseClick */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE20AA176071D200DF8B98 /* CollapseClick.h */,
+				6CFE20AB176071D200DF8B98 /* CollapseClick.m */,
+				6CFE20AC176071D200DF8B98 /* CollapseClickArrow.h */,
+				6CFE20AD176071D200DF8B98 /* CollapseClickArrow.m */,
+				6CFE20AE176071D200DF8B98 /* CollapseClickCell.h */,
+				6CFE20AF176071D200DF8B98 /* CollapseClickCell.m */,
+				6CFE20B0176071D200DF8B98 /* CollapseClickCell.xib */,
+			);
+			path = CollapseClick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +262,7 @@
 				6CFE20831760709900DF8B98 /* Default@2x.png in Resources */,
 				6CFE20851760709900DF8B98 /* Default-568h@2x.png in Resources */,
 				6CFE20881760709900DF8B98 /* MainStoryboard.storyboard in Resources */,
+				6CFE20B4176071D200DF8B98 /* CollapseClickCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +300,9 @@
 				6CFE207B1760709900DF8B98 /* main.m in Sources */,
 				6CFE207F1760709900DF8B98 /* AppDelegate.m in Sources */,
 				6CFE208B1760709900DF8B98 /* ViewController.m in Sources */,
+				6CFE20B1176071D200DF8B98 /* CollapseClick.m in Sources */,
+				6CFE20B2176071D200DF8B98 /* CollapseClickArrow.m in Sources */,
+				6CFE20B3176071D200DF8B98 /* CollapseClickCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
