@@ -17,12 +17,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor redColor];
     
     
     UIView *a = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 300, 300)];
     a.backgroundColor = [UIColor redColor];
     [self.view addSubview:a];
+    
+    UIView *b = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 300, 300)];
+    b.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:b];
     
 }
 
