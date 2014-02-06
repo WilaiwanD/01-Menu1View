@@ -28,6 +28,10 @@
     b.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:b];
     
+    UIView *c = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 300, 300)];
+    c.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:c];
+    
 }
 
 - (void)didReceiveMemoryWarning
